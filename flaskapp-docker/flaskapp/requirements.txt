@@ -1,0 +1,9 @@
+Flask==1.1.1
+flask
+flask-restful
+flask-cors
+python-docx
+nltk
+gensim
+textract
+scikit-learn==1.0.2
