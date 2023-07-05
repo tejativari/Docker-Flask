@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Productivity Prediction</title>
+</head>
+<body>
+<form action="{{url_for('index')}}" method = "post">
+<div class = "login">
+
+    <h1>
+        INPUTS
+    </h1>
+    <input type = "checkbox" name = "v" value = "date">Date<br>
+    <input type = "checkbox" name = "v" value = "quarter">Quarter<br>
+    <input type = "checkbox" name = "v" value = "department">Department<br>
+    <input type = "checkbox" name = "v" value = "day">Day<br>
+    <input type = "checkbox" name = "v" value = "team">Team<br>
+    <input type = "checkbox" name = "v" value = "targeted_productivity">Targeted Productivity<br>
+    <input type = "checkbox" name = "v" value = "smv">Standard Minute Value<br>
+    <input type = "checkbox" name = "v" value = "wip">Work in Progress<br>
+    <input type = "checkbox" name = "v" value = "over_time">Over Time<br>
+    <input type = "checkbox" name = "v" value = "incentive">Incentive<br>
+    <input type = "checkbox" name = "v" value = "idle_time">Idle Time<br>
+    <input type = "checkbox" name = "v" value = "idle_men">Idle Men<br>
+    <input type = "checkbox" name = "v" value = "no_of_style_change">No.of Style change<br>
+    <input type = "checkbox" name = "v" value = "no_of_workers">No.of Workers<br>
+    <input type = "checkbox" name = "v" value = "actual_productivity">Actual Productivity<br>
+
+    <h1>
+        GRAPHS
+    </h1>
+    <input type = "radio" name = "a" value = "scatterplot">Scatter Plot<br>
+    <input type = "radio" name = "a" value = "boxplot">Box Plot<br>
+    <input type = "radio" name = "a" value = "linechart">Line Chart<br>
+
+    <input type = "submit" value = "Submit">
+
+
+
+</div>
+</form>
+</body>
+</html>
